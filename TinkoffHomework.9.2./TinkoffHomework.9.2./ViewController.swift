@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     // MARK: - Action methods
     
     @IBAction func pressButton(_ sender: UIButton) {
-        print(sender.titleLabel!.text!);
+        guard let buttonText = sender.titleLabel?.text else { return }
+        print(buttonText)
     }
     
 
