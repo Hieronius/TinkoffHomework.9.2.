@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  TinkoffHomework.9.2.
-//
-//  Created by Арсентий Халимовский on 21.01.2024.
-//
 
 import UIKit
 
